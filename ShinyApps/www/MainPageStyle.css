@@ -1,0 +1,16 @@
+
+
+/* Main Page */
+
+.mainPage {
+  width: 100%;
+  z-index: -1;
+} 
+
+#v-align1{
+  padding: 10px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  /*border: 1px solid gray;*/
+}

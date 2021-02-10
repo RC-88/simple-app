@@ -1,0 +1,50 @@
+
+/* LOG IN Page Style */
+
+.signInPage {
+  margin-top: 10px;
+  width: 100%;
+} 
+
+#userPass {
+  display: table;
+  width: 100%;
+  margin-bottom: 30px;
+  /*border: 1px solid gray;*/
+}
+
+#userName{
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+}
+
+#passWord{
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+}
+
+#SignInButton {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center; 
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  background-color: #191970;
+  margin-bottom: 30px;
+}
+
+#LogInErrorMessage{
+  vertical-align: top;
+  text-align: center;
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+
+

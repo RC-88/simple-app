@@ -1,0 +1,58 @@
+
+/* HTML Body */
+
+body {
+  max-width: 100%;
+  /*background-color: rgb(166, 166, 166);*/
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+/* Style Input */
+
+input[type=text] {
+  padding: 5px; border: 2px solid gray; 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+input[type=text]:focus { 
+  border-color: blue; 
+}
+
+input[type=password] {
+  padding: 5px; border: 2px solid gray; 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+input[type=password]:focus { 
+  border-color: blue;
+}
+
+input[type=submit] {
+    padding: 5px 15px; 
+    background: black; 
+    border: 2px solid gray;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+/* Style select-input */
+
+.selectize-input.input-active .selectize-input.input-active:hover .selectize-control.multi .selectize-input.focus {text-align: left; border-color: #00008B !important;}
+
+.selectize-dropdown .active {text-align: left; background: #FFE4C4 !important;}
+
+.selectize-input{text-align: left; margin-right: 20px;}
+
+.selectize-dropdown {text-align: left;}
+
+
+/* Shiny Error Msg */ 
+.shiny-output-error {
+  visibility: hidden;
+}
