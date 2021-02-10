@@ -1,0 +1,12 @@
+version: '3.6'
+
+services:
+  simple-app:
+    image: montibot/simple-app:0.0.1  #name of the docker image
+    container_name: simple-app #name of the container
+    restart: always         #allow the connection to restart if it gets disconnected
+    ports:
+      - 9898:3838                   #port where the application is published on   
+    volumes:
+      - /home/rchau88/simple-app/ShinyApps/:/srv/shiny-server/           #location to the codebse or data files
+      - /home/rchau88/simple-app/ShinyApps-log/:/var/log/shiny-server/   #location to store log information from the shiny app
